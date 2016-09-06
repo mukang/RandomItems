@@ -9,11 +9,13 @@
 #import "MKItem.h"
 
 @interface MKContainer : MKItem
-{
-    NSArray *_items;
-}
 
-- (void)setItems:(NSArray *)items;
-- (NSArray *)items;
+@property (nonatomic, copy) NSArray *items;
+//{
+//    NSArray *_items;
+//}
+//
+//- (void)setItems:(NSArray *)items;
+//- (NSArray *)items;
 
 @end

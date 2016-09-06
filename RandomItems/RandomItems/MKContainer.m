@@ -10,13 +10,13 @@
 
 @implementation MKContainer
 
-- (void)setItems:(NSArray *)items {
-    _items = items;
-}
-
-- (NSArray *)items {
-    return _items;
-}
+//- (void)setItems:(NSArray *)items {
+//    _items = items;
+//}
+//
+//- (NSArray *)items {
+//    return _items;
+//}
 
 - (NSString *)description {
     int totalValue = self.valueInDollars;
